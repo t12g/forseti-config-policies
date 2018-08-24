@@ -1,0 +1,7 @@
+apiVersion: bespin.dev/v1
+kind: Folder
+metadata:
+  name: dept-x
+spec:
+  displayName: Department X
+  id: 12345
