@@ -1,0 +1,12 @@
+kind: Sync
+apiVersion: nomos.dev/v1alpha1
+metadata:
+  name: organizations
+spec:
+  groups:
+  - group: bespin.dev
+    kinds:
+    - kind: Organization
+      versions:
+      - version: v1
+
