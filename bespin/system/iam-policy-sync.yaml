@@ -1,0 +1,12 @@
+kind: Sync
+apiVersion: nomos.dev/v1alpha1
+metadata:
+  name: iampolicies
+spec:
+  groups:
+  - group: bespin.dev
+    kinds:
+    - kind: IAMPolicy
+      versions:
+      - version: v1
+
