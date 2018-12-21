@@ -1,0 +1,9 @@
+apiVersion: bespin.dev/v1
+kind: Project
+metadata:
+  labels:
+    controller-tools.k8s.io: "1.0"
+  name: ttt-project-001
+spec:
+  name: "ttt-project-001"
+  id: "ttt-project-001"
