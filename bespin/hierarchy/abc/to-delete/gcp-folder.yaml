@@ -1,0 +1,6 @@
+apiVersion: bespin.dev/v1
+kind: Folder
+metadata:
+  name: to-delete
+spec:
+  displayName: to-delete
