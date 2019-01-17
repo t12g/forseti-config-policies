@@ -1,8 +1,6 @@
 apiVersion: bespin.dev/v1
 kind: Folder
 metadata:
-  labels:
-    controller-tools.k8s.io: "1.0"
   name: ttt-test3
 spec:
   displayName: ttt-test3
