@@ -1,0 +1,7 @@
+apiVersion: bespin.dev/v1
+kind: Project
+metadata:
+  name: ttt-test3-proj1
+spec:
+  id: ttt-test3-project1
+  displayName: Project 1

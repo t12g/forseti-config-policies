@@ -1,0 +1,15 @@
+apiVersion: bespin.dev/v1
+kind: IAMPolicy
+metadata:
+  name: ttt-test3-iam
+spec:
+  bindings:
+    - role: "roles/owner"
+      members:
+      - "user:ttt@google.com"
+    - role: "roles/viewer"
+      members:
+      - "user:cflewis@google.com"
+
+      
+      
