@@ -7,9 +7,6 @@ spec:
     - role: "roles/editor"
       members:
       - "user:ttt@google.com"
-    - role: "roles/viewer"
-      members:
-      - "user:cflewis@google.com"
 
       
       
