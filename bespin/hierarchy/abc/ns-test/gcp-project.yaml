@@ -1,0 +1,7 @@
+apiVersion: bespin.dev/v1
+kind: Project
+metadata:
+  name: ttt-ns-test
+spec:
+  id: ttt-ns-test
+  displayName: namespace test
